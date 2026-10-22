@@ -1,0 +1,11 @@
+{
+  "bundle": {
+    "targets": [
+      "deb"
+    ],
+    "resources": {
+      "../../core/build/linux-release/libTorminCore.so": "libTorminCore.so",
+      "../../core/build/linux-release/libtorrent-rasterbar.so.2.0": "libtorrent-rasterbar.so.2.0"
+    }
+  }
+}

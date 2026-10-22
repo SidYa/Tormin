@@ -1,0 +1,8 @@
+{
+  "name": "tormin-core",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "libtorrent"
+  ],
+  "builtin-baseline": "e456309491fd875487bf02b8a0dca76c1b1b00cc"
+}

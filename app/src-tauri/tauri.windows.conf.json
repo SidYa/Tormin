@@ -1,0 +1,10 @@
+{
+  "bundle": {
+    "targets": [
+      "nsis"
+    ],
+    "resources": {
+      "../../core/build/x64-release/TorminCore.dll": "TorminCore.dll"
+    }
+  }
+}

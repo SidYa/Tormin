@@ -1,7 +1,8 @@
 {
   "bundle": {
     "targets": [
-      "deb"
+      "deb",
+      "rpm"
     ],
     "resources": {
       "../../core/build/linux-release/libTorminCore.so": "libTorminCore.so",

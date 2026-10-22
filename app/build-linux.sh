@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Builds the Linux .deb package: TorminCore against the system libtorrent,
+# Builds the Linux .deb and .rpm packages: TorminCore against the system libtorrent,
 # then the Tauri app. Run from anywhere; on WSL prefer a copy inside the Linux
 # file system (see AGENTS.md) - building on /mnt/c or /mnt/d is very slow.
 set -euo pipefail
@@ -26,4 +26,4 @@ cd "$root/app"
 [ -d node_modules ] || npm ci
 npm run tauri build
 
-ls -lh "$root"/app/src-tauri/target/release/bundle/deb/*.deb
+ls -lh "$root"/app/src-tauri/target/release/bundle/{deb/*.deb,rpm/*.rpm}
